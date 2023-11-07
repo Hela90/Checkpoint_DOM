@@ -1,0 +1,74 @@
+body{
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+.dali{
+    color: red;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+    width: 1075px;
+    margin-left: 200px;
+    background-color: #ffe7bf;
+
+}
+.arti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c2c2c24f;
+    border-radius: 8px;
+    width: 300px;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 240px;
+    height: 290px;
+    margin-top: 30px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+h3{
+    margin-top: 4px;    
+    font-size: 16px;
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+}
+.fa-minus:hover{
+    color: white;
+}
+.fa-plus:hover{
+    color: white;
+}
+.ico{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 118px;
+}
+
+hr{
+    border-left: 155px solid #d2d2d2;
+}
+.chigui{
+    border-radius: 15px;
+    padding: 4px;
+    border: 3px solid black;
+}
+
+h1{
+    background-color: tan;
+    text-align: center;
+}
